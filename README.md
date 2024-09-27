@@ -1,10 +1,23 @@
-# Convolucionales
-Las redes convolucionales (CNNs o Convolutional Neural Networks) son un tipo de red neuronal diseñada específicamente para procesar datos que tienen una estructura en forma de rejilla, como las imágenes. Son ampliamente utilizadas en tareas de visión por computadora, como el reconocimiento de objetos, la detección de rostros y la clasificación de imágenes.
+# Convoluciones Chidas
 
-Componentes principales de las CNNs:
-Capa Convolucional: Aplica filtros (o kernels) sobre la imagen de entrada para extraer características como bordes, texturas, y formas.
-Capa de Pooling: Reduce la dimensionalidad de los mapas de características, conservando la información más importante y reduciendo la carga computacional. Las técnicas más comunes son Max Pooling y Average Pooling.
-Capa de Activación: Introduce no linealidades usando funciones como ReLU (Rectified Linear Unit), permitiendo a la red aprender patrones complejos.
-Capa de Conexión Total (Fully Connected Layer): Conecta todas las neuronas, como en las redes neuronales tradicionales, para realizar la clasificación final.
-Capa de Salida: Genera la salida final de la red, como la probabilidad de pertenencia a ciertas clases.
-Las CNNs son especialmente efectivas en procesamiento de imágenes, pero también se han aplicado con éxito en otros campos, como procesamiento de texto y señales.
+Este proyecto muestra cómo aplicar convoluciones a imágenes utilizando JavaScript y HTML5. En particular, se utiliza el filtro de Sobel para detectar bordes en una imagen y convertirla a escala de grises antes de aplicar la convolución.
+
+## Descripción
+
+La aplicación carga una imagen y la muestra en un `canvas`. Luego, convierte la imagen a escala de grises y aplica un filtro de Sobel para detectar bordes, mostrando el resultado en un segundo `canvas`.
+
+## Requisitos
+
+- Un navegador web moderno que soporte `canvas` y JavaScript.
+
+## Cómo usar
+
+1. Clona este repositorio.
+2. Asegúrate de que la imagen `chai.jpg` esté en la misma carpeta que el archivo HTML.
+3. Abre el archivo `index.html` en tu navegador.
+
+## Estructura del Proyecto
+
+- **index.html**: Contiene el código HTML y JavaScript necesario para cargar y procesar la imagen.
+- **chai.jpg**: La imagen que se utilizará para aplicar las convoluciones.
+
